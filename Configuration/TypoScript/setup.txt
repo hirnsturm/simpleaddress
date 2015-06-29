@@ -1,0 +1,29 @@
+plugin.tx_simpleaddress {
+    view {
+        templateRootPath = {$plugin.tx_simpleaddress.view.templateRootPath}
+        partialRootPath = {$plugin.tx_simpleaddress.view.partialRootPath}
+        layoutRootPath = {$plugin.tx_simpleaddress.view.layoutRootPath}
+    }
+    persistence {
+        storagePid = {$plugin.tx_simpleaddress.persistence.storagePid}
+    }
+    features {
+        # uncomment the following line to enable the new Property Mapper.
+        # rewrittenPropertyMapper = 1
+    }
+
+    settings {
+        address {
+            css {
+                #0 = EXT:Resources/Public/Css/
+            }
+            js {
+                #0 = //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
+                1 = //maps.googleapis.com/maps/api/js?v=3.9&sensor=false
+                2 = EXT:Resources/Public/Js/vendor/libs/OverlappingMarkerSpiderfier.min.js
+                3 = EXT:Resources/Public/Js/vendor/Sle/SleGoogleMaps.min.js
+                4 = EXT:Resources/Public/Js/address.min.js
+            }
+        }
+    }
+}

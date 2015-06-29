@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2015-04-05T17:19:58Z" product-name="simpleaddress">
+        <header/>
+        <body>
+            <!-- Plugin-Names -->
+            <trans-unit id="plugin.address">
+                <source>Address</source>
+            </trans-unit>
+            <!-- FlexForm address.xml -->
+            <trans-unit id="fflabel.address">
+                <source>Address</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.fn">
+                <source>Fullname</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.street-address-name">
+                <source>Street</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.street-address-number">
+                <source>Number</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.postal-code">
+                <source>Postal Code</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.locality">
+                <source>Locality</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.note">
+                <source>Note</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps">
+                <source>Google Maps</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.switch">
+                <source>Show Google Maps</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.latitude">
+                <source>Latitude (manually)</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.longitude">
+                <source>Longitude (manually)</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.zoom">
+                <source>Zoom Level (0 - 25)</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.maxZoom">
+                <source>Maximal Zoom Level (0 - 25)</source>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.mapTypeId">
+                <source>The initial Map type</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

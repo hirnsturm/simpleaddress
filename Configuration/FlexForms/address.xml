@@ -1,0 +1,172 @@
+<T3DataStructure>
+    <meta>
+        <langDisable>1</langDisable>
+    </meta>
+    <sheets>
+        <!-- Address -->
+        <address>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.flexform.address.fn>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.fn</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval></eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.fn>
+                    <settings.flexform.address.street-address-name>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.street-address-name</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval></eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.street-address-name>
+                    <settings.flexform.address.street-address-number>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.street-address-number</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+                                <max>5</max>
+                                <eval></eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.street-address-number>
+                    <settings.flexform.address.postal-code>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.postal-code</label>
+                            <config>
+                                <type>input</type>
+                                <size>5</size>
+                                <eval></eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.postal-code>
+                    <settings.flexform.address.locality>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.locality</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval></eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.locality>
+                    <settings.flexform.address.note>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.note</label>
+                            <config>
+                                <type>text</type>
+                                <cols>35</cols>
+                                <rows>6</rows>
+                                <default></default>
+                            </config>
+                            <defaultExtras>richtext[cut|copy|paste|formatblock|bold|italic|underline|left|center|right|orderedlist|unorderedlist|outdent|indent]:rte_transform[mode=css]</defaultExtras>
+                        </TCEforms>
+                    </settings.flexform.address.note>
+                </el>
+            </ROOT>
+        </address>
+        <!-- Google Maps -->
+        <googleMaps>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps</sheetTitle>
+                </TCEforms>
+                <type>array</type>
+                <el>
+                    <settings.flexform.googleMaps.switch>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.switch</label>
+                            <config>
+                                <type>check</type>
+                                <default>1</default>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.switch>
+                    <settings.flexform.googleMaps.latitude>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.latitude</label>
+                            <config>
+                                <type>input</type>
+                                <size>11</size>
+                                <max>11</max>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.latitude>
+                    <settings.flexform.googleMaps.longitude>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.longitude</label>
+                            <config>
+                                <type>input</type>
+                                <size>11</size>
+                                <max>11</max>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.longitude>
+                    <settings.flexform.googleMaps.mapOptions.zoom>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.mapOptions.zoom</label>
+                            <config>
+                                <type>input</type>
+                                <size>2</size>
+                                <max>2</max>
+                                <eval>int, required</eval>
+                                <default>14</default>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.mapOptions.zoom>
+                    <settings.flexform.googleMaps.mapOptions.maxZoom>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.mapOptions.maxZoom</label>
+                            <config>
+                                <type>input</type>
+                                <size>2</size>
+                                <max>2</max>
+                                <eval>int, required</eval>
+                                <default>25</default>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.mapOptions.maxZoom>
+<!--                    <settings.flexform.googleMaps.mapOptions.mapTypeId>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.googleMaps.mapOptions.mapTypeId</label>
+                            <config>
+                                <type>select</type>
+                                <default>ROADMAP</default>
+                                <items>
+                                    <numIndex index="0" type="array">
+                                        <numIndex index="0">HYBRID</numIndex>
+                                        <numIndex index="1">HYBRID</numIndex>
+                                    </numIndex>
+                                    <numIndex index="1" type="array">
+                                        <numIndex index="0">ROADMAP</numIndex>
+                                        <numIndex index="1">ROADMAP</numIndex>
+                                    </numIndex>
+                                    <numIndex index="2" type="array">
+                                        <numIndex index="0">SATELLITE</numIndex>
+                                        <numIndex index="1">SATELLITE</numIndex>
+                                    </numIndex>
+                                    <numIndex index="3" type="array">
+                                        <numIndex index="0">TERRAIN</numIndex>
+                                        <numIndex index="1">TERRAIN</numIndex>
+                                    </numIndex>
+                                </items>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.googleMaps.mapOptions.mapTypeId>-->
+                </el>
+            </ROOT>            
+        </googleMaps>
+    </sheets>
+</T3DataStructure>

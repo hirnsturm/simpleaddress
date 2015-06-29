@@ -1,0 +1,17 @@
+<div class="row">
+    <f:if condition="{settings.flexform.googleMaps.switch}">
+        <f:then>
+            <div class="col-lg-4 col-sm-12 vcard">
+                <f:render partial="Address/Address" arguments="{settings: settings}" />
+            </div>
+            <div class="col-lg-8 col-sm-12">
+                <f:render partial="Address/GoogleMap" arguments="{uid: uid, mapData: mapData}" />
+            </div>
+        </f:then>
+        <f:else>
+            <div class="col-lg-12 vcard">
+                <f:render partial="Address/Address" arguments="{settings: settings}" />
+            </div>
+        </f:else>
+    </f:if>
+</div>
