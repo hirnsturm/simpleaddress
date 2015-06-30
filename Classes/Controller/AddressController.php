@@ -2,10 +2,10 @@
 
 namespace Sle\Simpleaddress\Controller;
 
-use Sle\Simpleaddress\Utils\Sle\TYPO3\Extbase\Controller\BaseController;
 use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use Sle\Simpleaddress\Utils\Sle\StringHelper;
-use Sle\Simpleaddress\Utils\Sle\Google\Maps\MapsV3;
+use Sle\TYPO3\Extbase\Controller\BaseController;
+use Sle\Helper\StringHelper;
+use Sle\Google\Maps\MapsV3;
 
 /* * *************************************************************
  *
@@ -37,7 +37,7 @@ use Sle\Simpleaddress\Utils\Sle\Google\Maps\MapsV3;
  */
 class AddressController extends BaseController
 {
-    
+
     /**
      *
      */

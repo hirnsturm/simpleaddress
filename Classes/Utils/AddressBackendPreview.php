@@ -2,7 +2,7 @@
 
 namespace Sle\Simpleaddress\Utils;
 
-use Sle\Simpleaddress\Utils\Sle\TYPO3\Extbase\Backend\PluginPreview;
+use Sle\TYPO3\Extbase\Backend\PluginPreview;
 
 /**
  * AddressBackendPreview

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\Simpleaddress\Utils\Sle\TYPO3\Extbase\Backend;
+namespace Sle\TYPO3\Extbase\Backend;
 
 use \TYPO3\CMS\Core\Utility\GeneralUtility;
 use \TYPO3\CMS\Extbase\Utility\LocalizationUtility;

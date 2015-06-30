@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\Simpleaddress\Utils\Sle\Google\Maps;
+namespace Sle\Google\Maps;
 
 /**
  * Google Maps API V3

@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\Simpleaddress\Utils\Sle;
+namespace Sle\Helper;
 
 /**
  * StringHelper

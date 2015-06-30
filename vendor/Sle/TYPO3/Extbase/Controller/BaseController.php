@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\Simpleaddress\Utils\Sle\TYPO3\Extbase\Controller;
+namespace Sle\TYPO3\Extbase\Controller;
 
 use \TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
