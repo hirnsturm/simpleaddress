@@ -11,7 +11,8 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title'            => 'Simple-Address',
-    'description'      => 'This extension offers an simple way for showing an address block with or without a Google Maps.',
+    'description'      => 'This extension offers an simple way for showing an address block with or without a Google Maps with. The address
+will rendered in vCard format.',
     'category'         => 'plugin',
     'author'           => 'Steve Lenz',
     'author_email'     => 'kontakt@steve-lenz.de',
