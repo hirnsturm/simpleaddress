@@ -11,7 +11,6 @@ plugin.tx_simpleaddress {
         # uncomment the following line to enable the new Property Mapper.
         # rewrittenPropertyMapper = 1
     }
-
     settings {
         address {
             css {
@@ -19,7 +18,7 @@ plugin.tx_simpleaddress {
             }
             js {
                 #0 = //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
-                1 = //maps.googleapis.com/maps/api/js?v=3.9&sensor=false&key={$plugin.tx_simpleaddress.settings.GoogleMapsApiKey}
+                1 = //maps.googleapis.com/maps/api/js?v=3.9&sensor=false&key={$plugin.tx_simpleaddress.settings.googleMapsApiKey}
                 2 = EXT:Resources/Public/Js/vendor/libs/OverlappingMarkerSpiderfier.min.js
                 3 = EXT:Resources/Public/Js/vendor/Sle/SleGoogleMaps.min.js
                 4 = EXT:Resources/Public/Js/address.min.js

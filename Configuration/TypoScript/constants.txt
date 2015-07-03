@@ -1,4 +1,3 @@
-
 plugin.tx_simpleaddress {
     view {
             # cat=plugin.tx_simpleaddress/file; type=string; label=Path to template root (FE)
@@ -10,9 +9,10 @@ plugin.tx_simpleaddress {
     }
     persistence {
             # cat=plugin.tx_simpleaddress//a; type=string; label=Default storage PID
-            storagePid =
+            # storagePid =
     }
     settings {
-        GoogleMapsApiKey = 
+        # cat=plugin.tx_simpleaddress/basic/001; type=string; label=Google Maps Api-Key for your projekt
+        googleMapsApiKey = 
     }
 }
