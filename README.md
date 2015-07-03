@@ -28,4 +28,6 @@ Just install the extension from the TER with the extension manager.
 neither
 
 ## Todo
-nothing
+- add phone number
+- add mobile phone
+- add e-mail
