@@ -21,7 +21,7 @@ will rendered in vCard format.',
     'uploadfolder'     => '0',
     'createDirs'       => '',
     'clearCacheOnLoad' => 0,
-    'version'          => '1.1.0',
+    'version'          => '1.2.0',
     'constraints'      => array(
         'depends'   => array(
             'typo3'   => '6.2.0-6.2.99',
