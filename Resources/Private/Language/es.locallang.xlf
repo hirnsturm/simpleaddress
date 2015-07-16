@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <xliff version="1.0">
-    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-04-05T17:19:58Z" product-name="simpleaddress">
+    <file source-language="en" target-language="es" datatype="plaintext" original="messages" date="2015-04-05T17:19:58Z" product-name="simpleaddress">
         <header/>
         <body>
             <!-- Plugin-Names -->
             <trans-unit id="plugin.address">
                 <source>Address</source>
-                <target>Adresse</target>
+                <target>Dirección</target>
             </trans-unit>
             <!-- FlexForm address.xml -->
             <trans-unit id="fflabel.address">
                 <source>Address</source>
-                <target>Adresse</target>
+                <target>Dirección</target>
             </trans-unit>
             <trans-unit id="fflabel.address.fn">
                 <source>Fullname</source>
-                <target>Name</target>
+                <target>Nombre</target>
             </trans-unit>
             <trans-unit id="fflabel.address.street-address-name">
                 <source>Street</source>
-                <target>Strasse</target>
+                <target>Camino</target>
             </trans-unit>
             <trans-unit id="fflabel.address.street-address-number">
                 <source>Number</source>
-                <target>Nummer</target>
+                <target>Número de la casa</target>
             </trans-unit>
             <trans-unit id="fflabel.address.postal-code">
                 <source>Postal Code</source>
-                <target>Postleitzahl</target>
+                <target>Código postal</target>
             </trans-unit>
             <trans-unit id="fflabel.address.locality">
                 <source>Locality</source>
-                <target>Ort</target>
+                <target>Lugar</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.country-name">
+                <source>Country</source>
+                <target>País</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.tel.phone">
+                <source>Phone number</source>
+                <target>Número de telefóno</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.tel.fax">
+                <source>Fax number</source>
+                <target>Número de fax</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.email">
+                <source>E-Mail</source>
+                <target>Dirección de correo electrónico</target>
             </trans-unit>
             <trans-unit id="fflabel.address.note">
                 <source>Note</source>
-                <target>Notiz</target>
+                <target>Anotación</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps">
                 <source>Google Maps</source>
@@ -43,27 +59,40 @@
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.switch">
                 <source>Show Google Maps</source>
-                <target>Google Maps anzeigen</target>
+                <target>Google Maps activo</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.latitude">
                 <source>Latitude</source>
-                <target>Breitengrad (manuell)</target>
+                <target>Grado de latitud (a manu)</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.longitude">
                 <source>Longitude</source>
-                <target>Längengrad (manuell)</target>
+                <target>Grado de longitud (a manu)</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.mapOptions.zoom">
                 <source>Zoom Level (0 - 25)</source>
-                <target>Zoomstufen (0 - 25)</target>
+                <target>Nivel de zoom (0 - 25)</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.mapOptions.maxZoom">
                 <source>Maximal Zoom Level (0 - 25)</source>
-                <target>Maximale Zoomstufen (0 - 25)</target>
+                <target>Nivel de zoom máximo (0 - 25)</target>
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.mapOptions.mapTypeId">
                 <source>The initial Map type</source>
-                <target>Initialer Kartentyp</target>
+                <target>Tipo de mapa inicial</target>
+            </trans-unit>
+            <!-- Address view -->
+            <trans-unit id="address.view.tel.phone.type">
+                <source>Phone</source>
+                <target>Tel.</target>
+            </trans-unit>
+            <trans-unit id="address.view.tel.fax.type">
+                <source>Fax</source>
+                <target>Fax</target>
+            </trans-unit>
+            <trans-unit id="address.view.email.type">
+                <source>E-Mail</source>
+                <target>Emilio</target>
             </trans-unit>
         </body>
     </file>
