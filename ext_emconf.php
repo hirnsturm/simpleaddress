@@ -21,12 +21,12 @@ will rendered in vCard format.',
     'uploadfolder'     => '0',
     'createDirs'       => '',
     'clearCacheOnLoad' => 0,
-    'version'          => '1.2.0',
+    'version'          => '1.3.0',
     'constraints'      => array(
         'depends'   => array(
-            'typo3'   => '6.2.0-6.2.99',
-            'extbase' => '6.2.0-6.2.99',
-            'fluid'   => '6.2.0-6.2.99',
+            'typo3'   => '6.2.0-7.3.99',
+            'extbase' => '6.2.0-7.3.99',
+            'fluid'   => '6.2.0-7.3.99',
         ),
         'conflicts' => array(
         ),

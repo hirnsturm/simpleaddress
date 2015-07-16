@@ -26,6 +26,18 @@
             <trans-unit id="fflabel.address.locality">
                 <source>Locality</source>
             </trans-unit>
+            <trans-unit id="fflabel.address.country-name">
+                <source>Country</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.tel.phone">
+                <source>Phone number</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.tel.fax">
+                <source>Fax number</source>
+            </trans-unit>
+            <trans-unit id="fflabel.address.email">
+                <source>E-Mail</source>
+            </trans-unit>
             <trans-unit id="fflabel.address.note">
                 <source>Note</source>
             </trans-unit>
@@ -49,6 +61,16 @@
             </trans-unit>
             <trans-unit id="fflabel.googleMaps.mapOptions.mapTypeId">
                 <source>The initial Map type</source>
+            </trans-unit>
+            <!-- Address view -->
+            <trans-unit id="address.view.tel.phone.type">
+                <source>Phone</source>
+            </trans-unit>
+            <trans-unit id="address.view.tel.fax.type">
+                <source>Fax</source>
+            </trans-unit>
+            <trans-unit id="address.view.email.type">
+                <source>E-Mail</source>
             </trans-unit>
         </body>
     </file>

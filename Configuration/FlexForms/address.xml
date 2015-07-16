@@ -17,7 +17,7 @@
                             <config>
                                 <type>input</type>
                                 <size>30</size>
-                                <eval></eval>
+                                <eval>trim</eval>
                             </config>
                         </TCEforms>
                     </settings.flexform.address.fn>
@@ -27,7 +27,7 @@
                             <config>
                                 <type>input</type>
                                 <size>30</size>
-                                <eval></eval>
+                                <eval>trim</eval>
                             </config>
                         </TCEforms>
                     </settings.flexform.address.street-address-name>
@@ -38,7 +38,7 @@
                                 <type>input</type>
                                 <size>5</size>
                                 <max>5</max>
-                                <eval></eval>
+                                <eval>trim</eval>
                             </config>
                         </TCEforms>
                     </settings.flexform.address.street-address-number>
@@ -48,7 +48,7 @@
                             <config>
                                 <type>input</type>
                                 <size>5</size>
-                                <eval></eval>
+                                <eval>trim</eval>
                             </config>
                         </TCEforms>
                     </settings.flexform.address.postal-code>
@@ -58,10 +58,50 @@
                             <config>
                                 <type>input</type>
                                 <size>30</size>
-                                <eval></eval>
+                                <eval>trim</eval>
                             </config>
                         </TCEforms>
                     </settings.flexform.address.locality>
+                    <settings.flexform.address.country-name>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.country-name</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.country-name>
+                    <settings.flexform.address.tel.phone>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.tel.phone</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.tel.phone>
+                    <settings.flexform.address.tel.fax>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.tel.fax</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.tel.fax>
+                    <settings.flexform.address.email>
+                        <TCEforms>
+                            <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.email</label>
+                            <config>
+                                <type>input</type>
+                                <size>30</size>
+                                <eval>trim</eval>
+                            </config>
+                        </TCEforms>
+                    </settings.flexform.address.email>
                     <settings.flexform.address.note>
                         <TCEforms>
                             <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.note</label>
@@ -69,6 +109,7 @@
                                 <type>text</type>
                                 <cols>35</cols>
                                 <rows>6</rows>
+                                <eval>trim</eval>
                                 <default></default>
                             </config>
                             <defaultExtras>richtext[cut|copy|paste|formatblock|bold|italic|underline|left|center|right|orderedlist|unorderedlist|outdent|indent]:rte_transform[mode=css]</defaultExtras>

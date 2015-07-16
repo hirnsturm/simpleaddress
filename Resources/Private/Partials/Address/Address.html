@@ -3,7 +3,33 @@
     <span class="street-address">{settings.flexform.address.street-address-name} {settings.flexform.address.street-address-number}</span><br>
     <span class="postal-code">{settings.flexform.address.postal-code}</span>&nbsp;
     <span class="locality">{settings.flexform.address.locality}</span>
+    <f:if condition="{settings.flexform.address.country-name}">
+        <span class="country-name">{settings.flexform.address.country-name}</span>
+    </f:for>
 </p>
-<p class="note">
-    {settings.flexform.address.note}
-</p>
+<f:if condition="{settings.flexform.address.tel.phone}">
+    <br>
+    <span class="tel">
+        <span class="type"><f:translate key="address.view.tel.phone.type" default="Phone" />:&nbsp;</span>
+        <span class="value">{settings.flexform.address.tel.phone}</span>
+    </span>
+</f:if>
+<f:if condition="{settings.flexform.address.tel.fax}">
+    <br>
+    <span class="tel">
+        <span class="type"><f:translate key="address.view.tel.fax.type" default="Fax" />:&nbsp;</span>
+        <span class="value">{settings.flexform.address.tel.fax}</span>
+    </span>
+</f:if>
+<f:if condition="{settings.flexform.address.email}">
+    <br>
+    <span class="email">
+        <span class="type"><f:translate key="address.view.email.type" default="E-Mail" />:&nbsp;</span>
+        <span class="value"><f:link.email email="{settings.flexform.address.email}" /></span>
+    </span>
+</f:if>
+<f:if condition="{settings.flexform.address.note}">
+    <div class="note">
+        {settings.flexform.address.note -> f:fomrat.html}
+    </div>
+</f:if>
