@@ -25,6 +25,6 @@ class AddressBackendPreview
     {
         return PluginPreview::getByFlexformField($params,
                 'data:address:lDEF:settings.flexform.address.fn:vDEF',
-                'plugin.address');
+                'plugin.address', 'simpleaddress');
     }
 }

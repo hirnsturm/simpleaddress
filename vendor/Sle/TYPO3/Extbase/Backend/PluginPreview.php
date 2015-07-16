@@ -22,13 +22,15 @@ class PluginPreview
      * @param array $params
      * @param string $path Path separeted by ":", e.g. data:[pluginName]:lDEF:[Key]:vDEF
      * @param string $transLabel Translation key for PlugIn label
+     * @param string $extensionName
+     * @param array $arguments
      * @return string
      */
-    public function getByFlexformField(array $params, $path, $transLabel)
+    public function getByFlexformField(array $params, $path, $transLabel, $extensionName, array $arguments = array())
     {
         list($extName, $pluginName) = explode('_', $params['row']['list_type']);
         
-        $infoText = '<strong>'.LocalizationUtility::translate('LLL:EXT:'.$extName.'/Resources/Private/Language/locallang.xlf:'.$transLabel).'</strong><br />';
+        $infoText = '<strong>'.LocalizationUtility::translate('LLL:EXT:'.$extName.'/Resources/Private/Language/locallang.xlf:'.$transLabel, $extName).'</strong><br />';
 
         $array = GeneralUtility::xml2array($params['row']['pi_flexform']);
         $paths = explode(':', $path);
