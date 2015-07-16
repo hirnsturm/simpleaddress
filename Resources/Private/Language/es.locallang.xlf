@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" target-language="de" datatype="plaintext" original="messages" date="2015-04-05T17:19:58Z" product-name="simpleaddress">
+        <header/>
+        <body>
+            <!-- Plugin-Names -->
+            <trans-unit id="plugin.address">
+                <source>Address</source>
+                <target>Adresse</target>
+            </trans-unit>
+            <!-- FlexForm address.xml -->
+            <trans-unit id="fflabel.address">
+                <source>Address</source>
+                <target>Adresse</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.fn">
+                <source>Fullname</source>
+                <target>Name</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.street-address-name">
+                <source>Street</source>
+                <target>Strasse</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.street-address-number">
+                <source>Number</source>
+                <target>Nummer</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.postal-code">
+                <source>Postal Code</source>
+                <target>Postleitzahl</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.locality">
+                <source>Locality</source>
+                <target>Ort</target>
+            </trans-unit>
+            <trans-unit id="fflabel.address.note">
+                <source>Note</source>
+                <target>Notiz</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps">
+                <source>Google Maps</source>
+                <target>Google Maps</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.switch">
+                <source>Show Google Maps</source>
+                <target>Google Maps anzeigen</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.latitude">
+                <source>Latitude</source>
+                <target>Breitengrad (manuell)</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.longitude">
+                <source>Longitude</source>
+                <target>Längengrad (manuell)</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.zoom">
+                <source>Zoom Level (0 - 25)</source>
+                <target>Zoomstufen (0 - 25)</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.maxZoom">
+                <source>Maximal Zoom Level (0 - 25)</source>
+                <target>Maximale Zoomstufen (0 - 25)</target>
+            </trans-unit>
+            <trans-unit id="fflabel.googleMaps.mapOptions.mapTypeId">
+                <source>The initial Map type</source>
+                <target>Initialer Kartentyp</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
