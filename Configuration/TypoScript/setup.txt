@@ -14,7 +14,7 @@ plugin.tx_simpleaddress {
     settings {
         address {
             css {
-                #0 = EXT:Resources/Public/Css/
+                0 = EXT:Resources/Public/Css/address.min.css
             }
             js {
                 #0 = //ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js
