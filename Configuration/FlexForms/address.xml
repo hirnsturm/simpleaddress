@@ -72,7 +72,7 @@
                             </config>
                         </TCEforms>
                     </settings.flexform.address.country-name>
-                    <settings.flexform.address.tel.phone>
+                    <settings.flexform.address.tel-phone>
                         <TCEforms>
                             <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.tel.phone</label>
                             <config>
@@ -81,8 +81,8 @@
                                 <eval>trim</eval>
                             </config>
                         </TCEforms>
-                    </settings.flexform.address.tel.phone>
-                    <settings.flexform.address.tel.fax>
+                    </settings.flexform.address.tel-phone>
+                    <settings.flexform.address.tel-fax>
                         <TCEforms>
                             <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.tel.fax</label>
                             <config>
@@ -91,7 +91,7 @@
                                 <eval>trim</eval>
                             </config>
                         </TCEforms>
-                    </settings.flexform.address.tel.fax>
+                    </settings.flexform.address.tel-fax>
                     <settings.flexform.address.email>
                         <TCEforms>
                             <label>LLL:EXT:simpleaddress/Resources/Private/Language/locallang.xlf:fflabel.address.email</label>
