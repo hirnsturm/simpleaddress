@@ -11,13 +11,12 @@
 - Todo
 
 ## What does it do?
-This extension offers an simple way for showing an address block with or without a Google Maps with. The address
-will rendered in vCard format and the whole template is full responsive because it based on Twitter Bootstrap. 
+This extension offers an simple way for showing an address block with or without a Google Maps and the address location on it. The address will rendered in vCard format and the whole template is full responsive because it based on Twitter Bootstrap. 
 
 ## Dependencies
-TYPO3 6.2.0-7.3.99  
-Extbase 6.2.0-7.3.99  
-Fluid 6.2.0-7.3.99  
+- TYPO3 6.2.0-7.3.99  
+- Extbase 6.2.0-7.3.99  
+- Fluid 6.2.0-7.3.99  
 
 ## User manual
 
@@ -52,4 +51,4 @@ You can simply insert the plugin "Address" on every page
 neither
 
 ## Todo
-nothing
+Feel free and add a issue, pull request or ask for a missing feature.
