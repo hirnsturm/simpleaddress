@@ -3,11 +3,11 @@
 ## Table of contents
 - What does it do?
 - Dependencies
-- User manual
+- User Manual
   - Installation
-  - How to use
-  - Supported languages
-- Known problems
+  - How to Use
+  - Supported Languages
+- Known Problems
 - Todo
 
 ## What does it do?
@@ -42,7 +42,7 @@ This extension offers an simple way for showing an address block with or without
 ### How to use
 You can simply insert the plugin "Address" on every page
 
-### Supported languages
+### Supported Languages
 - English
 - Deutsch
 - Español
