@@ -43,8 +43,8 @@ class BaseController extends ActionController
     public function initializeAction()
     {
         $this->extensionKey = $this->request->getControllerExtensionKey();
-        $this->cObj         = $this->configurationManager->getContentObject();
-        $this->uid          = $this->cObj->data['uid'];
+        $this->cObj = $this->configurationManager->getContentObject();
+        $this->uid = $this->cObj->data['uid'];
     }
 
     /**
@@ -101,7 +101,7 @@ class BaseController extends ActionController
             $path = str_replace('EXT:',
                 ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()),
                 $script);
-            $this->addToHead('<script type="text/javascript" src="'.$path.'"></script>');
+            $this->addToHead('<script type="text/javascript" src="' . $path . '"></script>');
         }
     }
 
@@ -118,7 +118,7 @@ class BaseController extends ActionController
             $stylesheet = str_replace('EXT:',
                 ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()),
                 $stylesheet);
-            $this->addToHead('<link rel="stylesheet" href="'.$stylesheet.'" />');
+            $this->addToHead('<link rel="stylesheet" href="' . $stylesheet . '" />');
         }
     }
 }
