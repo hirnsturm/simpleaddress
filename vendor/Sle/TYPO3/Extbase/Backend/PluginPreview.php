@@ -26,7 +26,7 @@ class PluginPreview
      * @param array $arguments
      * @return string
      */
-    public function getByFlexformField(array $params, $path, $transLabel, $extensionName, array $arguments = array())
+    public static function getByFlexformField(array $params, $path, $transLabel, $extensionName, array $arguments = array())
     {
         list($extName, $pluginName) = explode('_', $params['row']['list_type']);
         
