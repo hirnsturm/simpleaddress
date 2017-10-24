@@ -11,7 +11,7 @@
 
 $EM_CONF[$_EXTKEY] = array(
     'title'            => 'Simple-Address',
-    'description'      => 'This extension offers an simple way for showing an address block with or without a Google Maps with. The address
+    'description'      => 'This extension offers an easy way for showing an address block with or without a Google Maps with. The address
 will rendered in vCard format.',
     'category'         => 'plugin',
     'author'           => 'Steve Lenz',
@@ -24,9 +24,9 @@ will rendered in vCard format.',
     'version'          => '1.5.1',
     'constraints'      => array(
         'depends'   => array(
-            'typo3'   => '6.2.0-7.6.99',
-            'extbase' => '6.2.0-7.6.99',
-            'fluid'   => '6.2.0-7.6.99',
+            'typo3'   => '7.6.0-8.7.99',
+            'extbase' => '7.6.0-8.7.99',
+            'fluid'   => '7.6.0-8.7.99',
         ),
         'conflicts' => array(
         ),
