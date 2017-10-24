@@ -88,37 +88,4 @@ class BaseController extends ActionController
         }
     }
 
-    /**
-     * Fügt JavaScripts zum HTML-head hinzu
-     * Die JS-Dateien müssen sich in Resources/Public/Scripts befinden.
-     * ".js" wird automatisch angefügt.
-     *
-     * @param array $scripts
-     */
-    protected function addJavascripts(array $scripts)
-    {
-        foreach ($scripts as $script) {
-            $path = str_replace('EXT:',
-                ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()),
-                $script);
-            $this->addToHead('<script type="text/javascript" src="' . $path . '"></script>');
-        }
-    }
-
-    /**
-     * Fügt Stylesheets zum HTML-head hinzu.
-     * Die CSS-Dateien müssen sich in Resources/Public/Styles befinden.
-     * ".css" wird automatisch angefügt.
-     *
-     * @param array $stylesheets
-     */
-    protected function addStylesheets(array $stylesheets)
-    {
-        foreach ($stylesheets as $stylesheet) {
-            $stylesheet = str_replace('EXT:',
-                ExtensionManagementUtility::siteRelPath($this->request->getControllerExtensionKey()),
-                $stylesheet);
-            $this->addToHead('<link rel="stylesheet" href="' . $stylesheet . '" />');
-        }
-    }
 }

@@ -39,15 +39,6 @@ class AddressController extends BaseController
 {
 
     /**
-     *
-     */
-    public function initializeIndexAction()
-    {
-        $this->addStylesheets((array) $this->settings['address']['css']);
-        $this->addJavascripts((array) $this->settings['address']['js']);
-    }
-
-    /**
      * action index
      *
      * @return void
