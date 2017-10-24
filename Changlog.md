@@ -13,4 +13,5 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 
 ### Removed
+- TYPO3 CMS 6 compatibility
 - Asset loading in controller
