@@ -2,8 +2,6 @@
 
 namespace Sle\Simpleaddress\Utils;
 
-use Sle\TYPO3\Extbase\Backend\PluginPreview;
-
 /**
  * AddressBackendPreview
  *

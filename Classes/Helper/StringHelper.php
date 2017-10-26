@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\Helper;
+namespace Sle\Simpleaddress\Helper;
 
 /**
  * StringHelper
@@ -27,4 +27,5 @@ class StringHelper
 
         return $string;
     }
+
 }

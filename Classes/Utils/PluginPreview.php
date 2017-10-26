@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\TYPO3\Extbase\Backend;
+namespace Sle\Simpleaddress\Utils;
 
 use \TYPO3\CMS\Core\Utility\GeneralUtility;
 use \TYPO3\CMS\Extbase\Utility\LocalizationUtility;
@@ -29,7 +29,7 @@ class PluginPreview
     public static function getByFlexformField(array $params, $path, $transLabel, $extensionName, array $arguments = array())
     {
         list($extName, $pluginName) = explode('_', $params['row']['list_type']);
-        
+
         $infoText = '<strong>'.LocalizationUtility::translate('LLL:EXT:'.$extName.'/Resources/Private/Language/locallang.xlf:'.$transLabel, $extName).'</strong><br />';
 
         $array = GeneralUtility::xml2array($params['row']['pi_flexform']);

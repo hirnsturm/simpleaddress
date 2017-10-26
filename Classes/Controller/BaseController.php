@@ -1,6 +1,6 @@
 <?php
 
-namespace Sle\TYPO3\Extbase\Controller;
+namespace Sle\Simpleaddress\Controller;
 
 use \TYPO3\CMS\Extbase\Mvc\Controller\ActionController;
 use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
@@ -12,8 +12,6 @@ use \TYPO3\CMS\Extbase\Property\TypeConverter\PersistentObjectConverter;
  *
  * @author Steve Lenz <kontakt@steve-lenz.de>
  * @copyright (c) 2014, Steve Lenz
- * @version 1.2.0
- * @package TYPO3 6.2.x
  */
 class BaseController extends ActionController
 {

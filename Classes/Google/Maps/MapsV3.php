@@ -1,12 +1,12 @@
 <?php
 
-namespace Sle\Google\Maps;
+namespace Sle\Simpleaddress\Google\Maps;
 
 /**
  * Google Maps API V3
- * 
+ *
  * https://developers.google.com/maps/documentation/javascript/tutorial
- * 
+ *
  * @author Steve Lenz <kontakt@steve-lenz.de>
  * @copyright (c) 2013, Steve Lenz
  * @version 1.0.0
@@ -16,15 +16,15 @@ class MapsV3
 
     /**
      * Base URL for Google Maps API
-     * 
-     * @var string 
+     *
+     * @var string
      */
     private static $baseUrl = 'https://maps.googleapis.com/maps/api/geocode/json?sensor=';
 
     /**
      * Geokodierung mit Google GeoCoding API V3
      * https://developers.google.com/maps/documentation/geocoding/?hl=de
-     * 
+     *
      * @param string $city
      * @param string/int $postcode
      * @param string $street
@@ -45,7 +45,7 @@ class MapsV3
     /**
      * Die Adresse zu Geokoordinaten mittels Google GeoCoding API V3 ermitteln
      * https://developers.google.com/maps/documentation/geocoding/?hl=de#ReverseGeocoding
-     * 
+     *
      * @param float $lat
      * @param float $lng
      * @return array

@@ -3,9 +3,9 @@
 namespace Sle\Simpleaddress\Controller;
 
 use \TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
-use Sle\TYPO3\Extbase\Controller\BaseController;
-use Sle\Helper\StringHelper;
-use Sle\Google\Maps\MapsV3;
+use \Sle\Simpleaddress\Controller\BaseController;
+use \Sle\Simpleaddress\Helper\StringHelper;
+use \Sle\Simpleaddress\Google\Maps\MapsV3;
 
 /* * *************************************************************
  *
